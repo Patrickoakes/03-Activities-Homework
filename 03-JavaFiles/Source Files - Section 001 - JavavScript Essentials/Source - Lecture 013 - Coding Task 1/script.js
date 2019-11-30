@@ -19,6 +19,28 @@
 
 // SOLUTION:
 
+var John = 80;
+var Nick = 45;
+var Pass = 50;
+/*
+if (studentJohn > 50 && studentNick > 50) {
+  console.log(" condition is true");
+} else {
+  console.log(" Condition is false");
+}
+
+if (studentJohn < studentPass && studentNick < studentPass) {
+  console.log(" Both Students have failed");
+} else {
+  console.log(" Condition is false");
+}*/
+
+if (John > Pass && Nick > Pass) {
+  console.log(" Both Passed John with 80 points and Nick with 45 points ");
+
+} else if (John > Pass) {
+  console.log(" John passed with 80 points");
+}
 
 
 
