@@ -1,3 +1,6 @@
+/// BIG TAKEAWAY LOWER CASE ALWAYS IN ARRAY THEN .toLowerCase  BECAUSE THEN IT DOESN'T MATTER WHAT CASE//////////
+
+
 
 var bands = ["replacements", "bob dylan", "led zeppelin", 'jay z'];
 
