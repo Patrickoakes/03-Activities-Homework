@@ -1,15 +1,12 @@
 
-/*var colors = ['white', 'black', 'red'];
+var colors = ['white', 'black', 'red'];
 
 colors[1] = 'green';
 
 console.log(colors);////  CHANGES OUT BLACK WITH GREEN/////
 
 
-
-var colors = ['white', 'green', 'red','blue'];
-
-colors[1] = 'green';
+var colors = ['white', 'green', 'red'];
 
 colors.push('blue');
 
@@ -17,11 +14,7 @@ console.log(colors); /////PUSH ADDS A COLOR TO END/////
 
 
 
-var colors = ['white', 'green', 'red',];
-
-colors[1] = 'green';
-
-colors.push('blue');
+var colors = ['white', 'green', 'red', 'blue'];
 
 colors.pop();
 
@@ -29,13 +22,7 @@ console.log(colors);   /////POP SUBTRACTS A COLOR AT END/////
 
 
 
-var colors = [ 'green', 'red'];
-
-colors[1] = 'green';
-
-colors.push('blue');
-
-colors.pop();
+var colors = ['white', 'green', 'red'];
 
 colors.shift();
 
@@ -43,15 +30,7 @@ console.log(colors);   /////SHIFT SUBTRACTS A COLOR AT BEGINNING/////
 
 
 
-var colors = ['purple', 'green', 'red'];
-
-colors[1] = 'green';
-
-colors.push('blue');
-
-colors.pop();
-
-colors.shift();
+var colors = ['green', 'red'];
 
 colors.unshift('purple');
 
@@ -61,51 +40,18 @@ console.log(colors);    /////UNSHIFT ADDS A COLOR AT BEGINNING/////
 
 var colors = ['purple', 'green', 'red'];
 
-colors[1] = 'green';
-
-colors.push('blue');
-
-colors.pop();
-
-colors.shift();
-
-colors.unshift('purple');
-
 console.log(colors.indexOf('red'));
 /// indexOf('red') returns value of 2, because red is 2 in array   ////
 
 
 var colors = ['purple', 'green', 'red'];
 
-colors[1] = 'green';
-
-colors.push('blue');
-
-colors.pop();
-
-colors.shift();
-
-colors.unshift('purple');
-
 console.log(colors.indexOf('brown'));
-*/ ////   VALUE RETURNS -1 WHEN THERE IS NO COLOR IN ARRAY IN indexOf//////
+////   VALUE RETURNS -1 WHEN THERE IS NO COLOR IN ARRAY IN indexOf//////
 
 
 
 var colors = ['purple', 'green', 'red'];
-
-colors[1] = 'green';
-
-colors.push('blue');
-
-colors.pop();
-
-colors.shift();
-
-colors.unshift('purple');
-
-console.log(colors.indexOf('brown'));
-
 
 if (colors.indexOf('blue') === -1) {
 
