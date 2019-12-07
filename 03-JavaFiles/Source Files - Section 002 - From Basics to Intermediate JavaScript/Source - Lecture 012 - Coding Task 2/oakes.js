@@ -49,15 +49,17 @@ var studentD = {
 
 var students = [studentA, studentB, studentC, studentD];
 
-//console.log(students)
+console.log(students)
 
-//var passingLim = [91, 81, 71, 61, 51];
+var passingLim = [91, 81, 71, 61, 51];
 
-//console.log(passingLim);
+console.log(passingLim);
 
-//var diplomaDeg = ['A', 'B', 'C', 'D', 'E'];
+var diplomaDeg = ['A', 'B', 'C', 'D', 'E'];
 
-//console.log(diplomaDeg);
+console.log(diplomaDeg);
+
+
 
 function calcScore(score1, score2) {
 
@@ -65,14 +67,18 @@ function calcScore(score1, score2) {
 
     return score;
 }
-console.log(score);
 
+function nameGrade(name, score) {
 
-passingLim('John', calcScore(40, 35));
+    nameGrade('John', calcScore(47, 46));
 
-passingLim('Mary', 65)
+    nameGrade('Bob', calcScore(23, 24));
 
-passingLim('Bob', 45);
+    nameGrade('Nick', calcScore(40, 35));
+
+    nameGrade('Alex', calcScore(44, 45));
+}
+console.log(nameGrade);
 
 
 
