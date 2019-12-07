@@ -2,7 +2,7 @@
 
 /*
 **********************CODING TASK No 2*****************************
-1. Create an array - students, insert four items, which should be objects and have three properties: name, score1, score2, 
+1. Create an array - students, insert four items, which should be objects and have three properties: name, score1, score2,
     with the following values:
     a. John, 47, 46
     b. Bob, 23, 24
@@ -14,7 +14,7 @@
 
 3. Create function which will calculate total score (score1 + score2) for each student.
 
-4. Create function and use in it for loops, if else statements and whatever you need, in order to figure out, which student 
+4. Create function and use in it for loops, if else statements and whatever you need, in order to figure out, which student
     has passed an exam and what kind of degree he has got.
 
 5. Display the final result in console.

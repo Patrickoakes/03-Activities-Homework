@@ -23,6 +23,41 @@
 
 // SOLUTION:
 
+var studentA = {
+    name: 'John',
+    score1: 47,
+    score2: 46
+};
+
+var studentB = {
+    name: 'Bob',
+    score1: 23,
+    score2: 24
+};
+
+var studentC = {
+    name: 'Nick',
+    score1: 40,
+    score2: 35
+};
+
+var studentD = {
+    name: 'Alex',
+    score1: 44,
+    score2: 45
+};
+
+var students = [studentA, studentB, studentC, studentD]
+
+
+
+
+
+
+
+
+
+
 
 
 
