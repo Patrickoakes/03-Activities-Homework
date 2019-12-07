@@ -47,12 +47,32 @@ var studentD = {
     score2: 45
 };
 
-var students = [studentA, studentB, studentC, studentD]
+var students = [studentA, studentB, studentC, studentD];
+
+//console.log(students)
+
+//var passingLim = [91, 81, 71, 61, 51];
+
+//console.log(passingLim);
+
+//var diplomaDeg = ['A', 'B', 'C', 'D', 'E'];
+
+//console.log(diplomaDeg);
+
+function calcScore(score1, score2) {
+
+    var score = score1 + score2;
+
+    return score;
+}
+console.log(score);
 
 
+passingLim('John', calcScore(40, 35));
 
+passingLim('Mary', 65)
 
-
+passingLim('Bob', 45);
 
 
 
