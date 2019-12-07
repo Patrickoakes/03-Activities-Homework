@@ -78,7 +78,7 @@ function nameGrade(name, score) {
 
     nameGrade('Alex', calcScore(44, 45));
 }
-console.log(nameGrade);
+console.log(score);
 
 
 
